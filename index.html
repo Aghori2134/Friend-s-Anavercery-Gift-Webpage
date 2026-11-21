@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu & Saniya | Our Little Story</title>
+	<link rel="icon" href="https://img.magnific.com/premium-vector/ss-letter-logo-design-template-elements-ss-letter-vector-logo_831218-315.jpg?semt=ais_hybrid&w=740&q=80">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #fff3f5;
+            color: #581b30;
+            overflow-x: hidden;
+        }
+
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .script {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .glass {
+            background: rgba(255, 246, 248, 0.75);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border: 1px solid rgba(255,255,255,0.65);
+        }
+
+        .hero-bg {
+            background:
+                radial-gradient(circle at 10% 10%, #ffd9e2 0, transparent 35%),
+                radial-gradient(circle at 90% 25%, #ffc7d4 0, transparent 32%),
+                linear-gradient(135deg, #fff5f5, #ffe1e8, #fff1e9);
+        }
+
+        .section-bg {
+            background: linear-gradient(180deg, #fff4f6, #ffe6eb);
+        }
+
+        .heart-float {
+            animation: float 5s ease-in-out infinite;
+        }
+
+        .heart-float2 {
+            animation: float 7s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        .photo-card {
+            transition: transform .35s ease, box-shadow .35s ease;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-8px) rotate(-1deg);
+            box-shadow: 0 20px 35px rgba(115, 23, 54, .14);
+        }
+
+        .surprise-details > summary {
+            list-style: none;
+            cursor: pointer;
+        }
+
+        .surprise-details > summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .surprise-details[open] .surprise-content {
+            animation: reveal .35s ease;
+        }
+
+        @keyframes reveal {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .surprise-details[open] .surprise-arrow {
+            transform: rotate(180deg);
+        }
+
+        .surprise-arrow {
+            transition: transform .3s ease;
+        }
+
+        .heart-button:hover {
+            transform: scale(1.08);
+        }
+
+        .heart-button {
+            transition: transform .3s ease;
+        }
+
+        .timeline-line {
+            background: linear-gradient(to right, #9b244b, #f3a2b8, #9b244b);
+        }
+
+        .letter-paper {
+            background:
+                linear-gradient(rgba(255,250,246,.95), rgba(255,250,246,.95)),
+                repeating-linear-gradient(transparent 0px, transparent 28px, #f1d9df 29px);
+        }
+
+        ::selection {
+            background: #efb5c6;
+            color: #681632;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation: none !important;
+                scroll-behavior: auto !important;
+                transition: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[94%] max-w-6xl glass rounded-full shadow-lg px-4 sm:px-6 py-3">
+
+    <div class="flex justify-between items-center">
+
+        <a href="#home" class="script text-2xl sm:text-3xl font-bold text-[#811b40]">
+            S <span class="text-pink-500">♡</span> S 
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+            <a href="#home" class="hover:text-pink-600 transition">Home</a>
+            <a href="#story" class="hover:text-pink-600 transition">Our Story</a>
+            <a href="#memories" class="hover:text-pink-600 transition">Memories</a>
+            <a href="#surprises" class="hover:text-pink-600 transition">Surprises</a>
+        </div>
+
+        <a href="#surprises"
+           class="bg-[#871d43] text-white px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm hover:bg-[#a52b56] transition">
+            For Saniya ♡
+        </a>
+
+    </div>
+
+</nav>
+
+<section id="home" class="hero-bg min-h-screen pt-28 sm:pt-32 pb-16 px-5 sm:px-8 flex items-center">
+
+
+        <div class="text-center lg:text-left">
+
+            <span class="inline-flex items-center gap-2 bg-white/70 border border-pink-200 rounded-full px-4 py-2 text-xs sm:text-sm text-[#9b3157] mb-6">
+                <i class="ri-heart-fill text-pink-500"></i>
+                A little celebration of us
+            </span>
+
+            <h1 class="serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-tight text-[#471329]">
+                Another year
+                <br>
+                of choosing
+                <span class="italic text-[#a21d49]">you.</span>
+            </h1>
+
+            <h2 class="script text-4xl sm:text-5xl lg:text-6xl text-[#8e1740] mt-4">
+                Happy Anniversary, Saniya ♡
+            </h2>
+
+            <p class="text-[#6c3549] max-w-lg mx-auto lg:mx-0 mt-6 leading-8 text-sm sm:text-base">
+                Some people make ordinary days feel special.
+                And then there's you, Saniya, making every little
+                moment feel like a memory worth keeping forever.
+            </p>
+
+            <p class="font-semibold text-[#851b41] mt-3">
+                With love, from Sonu. ♡
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-8">
+
+                <a href="#surprises"
+                   class="bg-[#861a40] text-white px-7 py-4 rounded-full shadow-lg shadow-pink-900/10 hover:bg-[#a32751] hover:-translate-y-1 transition text-sm font-semibold">
+                    <i class="ri-gift-line mr-2"></i>
+                    Open Your Surprises
+                </a>
+
+                <a href="#memories"
+                   class="border border-[#8c2347] text-[#8c2347] px-7 py-4 rounded-full hover:bg-white/60 transition text-sm font-semibold">
+                    <i class="ri-image-line mr-2"></i>
+                    Our Memories
+                </a>
+
+            </div>
+
+            <div class="mt-10 flex items-center justify-center lg:justify-start gap-3 text-[#aa4767]">
+
+                <span class="text-2xl">♡</span>
+
+                <p class="script text-2xl">
+                    Made with love, just for you
+                </p>
+
+                <span class="text-2xl">♡</span>
+
+            </div>
+
+        </div>
+
+        <div class="relative max-w-xl mx-auto w-full heart-float">
+
+            <div class="absolute -top-8 -left-5 text-5xl text-pink-400">
+                ♡
+            </div>
+
+            <div class="absolute -bottom-8 -right-4 text-5xl text-[#9c244b]">
+                ♥
+            </div>
+
+            <div class="bg-[#fff8f5] rounded-[30px] p-4 sm:p-6 shadow-2xl shadow-pink-900/10 rotate-1">
+
+                <div class="rounded-2xl overflow-hidden relative">
+
+                    <img
+                        src="images/img1.jpg"
+                        alt="Romantic sunset"
+                        class="w-full h-[320px] sm:h-[430px] object-cover">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#471329]/70 via-transparent to-transparent"></div>
+
+                    <div class="absolute bottom-6 left-6 right-6 text-white">
+
+                        <p class="script text-4xl sm:text-5xl">
+                            To my favourite person...
+                        </p>
+
+                        <p class="text-sm mt-2 tracking-wide">
+                            You make my world a little more beautiful.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="flex justify-between items-center px-2 pt-5">
+
+                    <div>
+                        <p class="serif text-xl">Sonu <span class="text-pink-500">♡</span> Saniya</p>
+                        <p class="text-xs text-[#a15c72] mt-1">A story written in little moments</p>
+                    </div>
+
+                    <div class="text-3xl text-[#9a244a]">
+                        <i class="ri-heart-fill"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="absolute -right-5 top-8 glass px-5 py-4 rounded-2xl shadow-lg heart-float2 hidden sm:block">
+                <p class="script text-2xl text-[#8d1d42]">psst... ♡</p>
+                <p class="text-xs">You are someone's favourite</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-10 px-5 bg-[#8b1c42] text-white">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <p class="script text-3xl sm:text-4xl leading-relaxed">
+            "In a world full of people, somehow my favourite story is ours."
+        </p>
+
+        <div class="flex justify-center gap-3 mt-4 text-pink-200">
+            ♡ ───── ♥ ───── ♡
+        </div>
+
+    </div>
+
+</section>
+<section id="story" class="section-bg py-20 px-5 sm:px-8">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-14">
+
+            <p class="uppercase tracking-[4px] text-xs text-[#ae5270] font-semibold">
+                Every little moment matters
+            </p>
+
+            <h2 class="serif text-4xl sm:text-6xl mt-4">
+                Our Little Journey
+            </h2>
+
+            <p class="script text-3xl sm:text-4xl text-[#9b2750] mt-3">
+                Two hearts, one beautiful story
+            </p>
+
+        </div>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Card 1 -->
+
+            <div class="bg-white/75 p-7 rounded-3xl border border-pink-100 shadow-sm text-center hover:-translate-y-2 transition">
+
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto text-[#a12850] text-2xl">
+                    <i class="ri-sparkling-line"></i>
+                </div>
+
+                <p class="text-xs uppercase tracking-widest text-pink-500 mt-5">Chapter 01</p>
+
+                <h3 class="serif text-2xl mt-2">The Beginning</h3>
+
+                <p class="text-sm leading-7 text-[#865265] mt-3">
+                    Every beautiful story has a beginning. Ours became one of my favourite reasons to smile.
+                </p>
+
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="bg-white/75 p-7 rounded-3xl border border-pink-100 shadow-sm text-center hover:-translate-y-2 transition">
+
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto text-[#a12850] text-2xl">
+                    <i class="ri-chat-heart-line"></i>
+                </div>
+
+                <p class="text-xs uppercase tracking-widest text-pink-500 mt-5">Chapter 02</p>
+
+                <h3 class="serif text-2xl mt-2">Little Moments</h3>
+
+                <p class="text-sm leading-7 text-[#865265] mt-3">
+                    Random conversations, silly jokes, endless smiles and memories that became precious.
+                </p>
+
+            </div>
+
+
+            <!-- Card 3 -->
+
+            <div class="bg-white/75 p-7 rounded-3xl border border-pink-100 shadow-sm text-center hover:-translate-y-2 transition">
+
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto text-[#a12850] text-2xl">
+                    <i class="ri-heart-3-line"></i>
+                </div>
+
+                <p class="text-xs uppercase tracking-widest text-pink-500 mt-5">Chapter 03</p>
+
+                <h3 class="serif text-2xl mt-2">Growing Together</h3>
+
+                <p class="text-sm leading-7 text-[#865265] mt-3">
+                    Learning, laughing, understanding and appreciating all those little things along the way.
+                </p>
+
+            </div>
+
+
+            <!-- Card 4 -->
+
+            <div class="bg-white/75 p-7 rounded-3xl border border-pink-100 shadow-sm text-center hover:-translate-y-2 transition">
+
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto text-[#a12850] text-2xl">
+                    <i class="ri-infinity-line"></i>
+                </div>
+
+                <p class="text-xs uppercase tracking-widest text-pink-500 mt-5">Chapter 04</p>
+
+                <h3 class="serif text-2xl mt-2">Our Forever</h3>
+
+                <p class="text-sm leading-7 text-[#865265] mt-3">
+                    Here's to more beautiful days, new memories and a story with so many pages left.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Timeline -->
+
+        <div class="mt-20 bg-white/60 rounded-[30px] p-7 sm:p-12 shadow-sm">
+
+            <h3 class="serif text-3xl sm:text-4xl text-center">
+                The chapters of us
+            </h3>
+
+            <div class="relative mt-12">
+
+                <div class="hidden md:block absolute top-4 left-[8%] right-[8%] h-[2px] timeline-line"></div>
+
+                <div class="grid md:grid-cols-4 gap-8">
+
+                    <div class="text-center relative">
+                        <div class="w-8 h-8 rounded-full bg-[#901f48] text-white flex items-center justify-center mx-auto relative z-10">
+                            ♡
+                        </div>
+                        <h4 class="serif text-xl mt-4">Day One</h4>
+                        <p class="text-sm text-[#a14e6c] mt-2">The beginning of something special</p>
+                    </div>
+
+                    <div class="text-center relative">
+                        <div class="w-8 h-8 rounded-full bg-[#901f48] text-white flex items-center justify-center mx-auto relative z-10">
+                            ♡
+                        </div>
+                        <h4 class="serif text-xl mt-4">Little Memories</h4>
+                        <p class="text-sm text-[#a14e6c] mt-2">Moments we keep close</p>
+                    </div>
+
+                    <div class="text-center relative">
+                        <div class="w-8 h-8 rounded-full bg-[#901f48] text-white flex items-center justify-center mx-auto relative z-10">
+                            ♡
+                        </div>
+                        <h4 class="serif text-xl mt-4">Today</h4>
+                        <p class="text-sm text-[#a14e6c] mt-2">Celebrating another beautiful chapter</p>
+                    </div>
+
+                    <div class="text-center relative">
+                        <div class="w-8 h-8 rounded-full bg-[#901f48] text-white flex items-center justify-center mx-auto relative z-10">
+                            ∞
+                        </div>
+                        <h4 class="serif text-xl mt-4">Tomorrow</h4>
+                        <p class="text-sm text-[#a14e6c] mt-2">More memories waiting to happen</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="memories" class="py-20 px-5 sm:px-8 bg-[#fff8f5]">
+
+    <div class="max-w-7xl mx-auto">
+
+        <div class="text-center mb-14">
+
+            <p class="uppercase tracking-[4px] text-xs text-[#ae5270] font-semibold">
+                A collection of little moments
+            </p>
+
+            <h2 class="serif text-4xl sm:text-6xl mt-4">
+                Memories That Feel Like Home
+            </h2>
+
+            <p class="script text-3xl text-[#a02b50] mt-4">
+                Some moments deserve to stay forever...
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- Memory 1 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[-1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img5.jpg"
+                        alt="Beautiful sunset"
+                        class="w-full h-72 object-cover">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">A beautiful beginning</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">The kind of day we never forget ♡</p>
+                </div>
+
+            </div>
+
+
+            <!-- Memory 2 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img10.jpg"
+                        alt="Romantic flowers"
+                        class="w-full h-72 object-cover">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">Flowers & feelings</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">Little things, big feelings ♡</p>
+                </div>
+
+            </div>
+
+
+            <!-- Memory 3 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[-1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img2.jpg"
+                        alt="Sunrise sky"
+                        class="w-full h-72 object-cover">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">Our favourite days</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">Ordinary moments made magical ♡</p>
+                </div>
+
+            </div>
+
+
+            <!-- Memory 4 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img4.jpg"
+                        alt="Romantic lights"
+                        class="w-full h-72 object-cover">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">Little celebrations</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">Every reason to smile together ♡</p>
+                </div>
+
+            </div>
+
+
+            <!-- Memory 5 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[-1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img3.jpg"
+                        alt="Beautiful memories"
+                        class="w-full h-72">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">Your lovely smile</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">One of my favourite things ♡</p>
+                </div>
+
+            </div>
+
+
+            <!-- Memory 6 -->
+
+            <div class="photo-card bg-white p-4 rounded-2xl shadow-md rotate-[1deg]">
+
+                <div class="overflow-hidden rounded-xl">
+                    <img
+                        src="images/img6.jpg"
+                        alt="Golden hour together"
+                        class="w-full h-72 object-cover">
+                </div>
+
+                <div class="text-center pt-5 pb-3">
+                    <p class="script text-3xl text-[#8b2044]">And many more...</p>
+                    <p class="text-xs text-[#a56a7e] mt-2">Our story is still being written ♡</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="text-center mt-12">
+
+            <p class="script text-3xl text-[#9d2951]">
+                The best memories are yet to come. ♡
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="surprises" class="section-bg py-20 px-5 sm:px-8">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-14">
+
+            <span class="inline-flex px-4 py-2 rounded-full bg-pink-100 text-[#a32751] text-xs tracking-widest uppercase">
+                A little something for you
+            </span>
+
+            <h2 class="serif text-4xl sm:text-6xl mt-5">
+                A Few Little Surprises
+            </h2>
+
+            <p class="script text-3xl sm:text-4xl text-[#a52b53] mt-4">
+                Saniya, these are all yours ♡
+            </p>
+
+            <p class="text-[#916074] text-sm mt-5">
+                Tap each card to discover something hidden inside.
+            </p>
+
+        </div>
+
+
+        <!-- Surprise Cards -->
+
+        <div class="grid md:grid-cols-3 gap-7">
+
+
+            <!-- Surprise 1 -->
+
+            <details class="surprise-details group relative">
+
+                <summary class="bg-[#8b1942] text-white p-8 rounded-[28px] text-center shadow-lg hover:-translate-y-2 transition min-h-[260px] flex flex-col items-center justify-center">
+
+                    <div class="text-5xl mb-5 heart-button">
+                        <i class="ri-heart-3-line"></i>
+                    </div>
+
+                    <h3 class="serif text-2xl">A Secret Note</h3>
+
+                    <p class="text-pink-200 text-sm mt-3">Tap to open your letter</p>
+
+                    <div class="mt-6 w-10 h-10 rounded-full bg-white/15 flex items-center justify-center">
+                        <i class="ri-arrow-down-line surprise-arrow"></i>
+                    </div>
+
+                </summary>
+
+                <div class="surprise-content mt-4 bg-white rounded-3xl p-7 shadow-lg border border-pink-100">
+
+                    <div class="text-center text-3xl text-pink-500 mb-4">
+                        💌
+                    </div>
+
+                    <p class="script text-3xl text-center text-[#8b1942]">
+                        Dear Saniya,
+                    </p>
+
+                    <p class="text-sm leading-7 text-[#805166] mt-4 text-center">
+                        If I could put every happy moment into words, this letter would never end.
+                        Thank you for the smiles, the laughter, the little moments and the memories
+                        that make life feel beautiful.
+                    </p>
+
+                    <p class="script text-2xl text-center text-[#a32852] mt-5">
+                        Always wishing you happiness ♡
+                    </p>
+
+                    <p class="text-right text-xs text-[#9b657b] mt-4">
+                        — Sonu
+                    </p>
+
+                </div>
+
+            </details>
+
+            <details class="surprise-details group">
+
+                <summary class="bg-[#f9c6d3] text-[#6d1737] p-8 rounded-[28px] text-center shadow-lg hover:-translate-y-2 transition min-h-[260px] flex flex-col items-center justify-center">
+
+                    <div class="text-5xl mb-5 heart-button">
+                        <i class="ri-gift-2-line"></i>
+                    </div>
+
+                    <h3 class="serif text-2xl">A Tiny Promise</h3>
+
+                    <p class="text-[#8f3555] text-sm mt-3">Tap for a little promise</p>
+
+                    <div class="mt-6 w-10 h-10 rounded-full bg-white/50 flex items-center justify-center">
+                        <i class="ri-arrow-down-line surprise-arrow"></i>
+                    </div>
+
+                </summary>
+
+                <div class="surprise-content mt-4 bg-white rounded-3xl p-7 shadow-lg border border-pink-100">
+
+                    <div class="text-center text-3xl mb-4">🎀</div>
+
+                    <h4 class="script text-3xl text-[#8b1942] text-center">
+                        My little promise
+                    </h4>
+
+                    <p class="text-sm leading-7 text-[#805166] mt-5 text-center">
+                        May you always have reasons to smile, dreams to chase,
+                        courage to try new things and people who remind you how wonderful you are.
+                    </p>
+
+                    <p class="text-center text-[#a32852] mt-5 text-2xl">
+                        You deserve all the happiness in the world. ♡
+                    </p>
+
+                </div>
+
+            </details>
+
+            <details class="surprise-details group">
+
+                <summary class="bg-[#fffaf5] border border-pink-200 text-[#6d1737] p-8 rounded-[28px] text-center shadow-lg hover:-translate-y-2 transition min-h-[260px] flex flex-col items-center justify-center">
+
+                    <div class="text-5xl mb-5 heart-button">
+                        <i class="ri-mail-heart-line"></i>
+                    </div>
+
+                    <h3 class="serif text-2xl">One More Smile</h3>
+
+                    <p class="text-[#8f3555] text-sm mt-3">There is something else inside</p>
+
+                    <div class="mt-6 w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center">
+                        <i class="ri-arrow-down-line surprise-arrow"></i>
+                    </div>
+
+                </summary>
+
+                <div class="surprise-content mt-4 bg-white rounded-3xl p-7 shadow-lg border border-pink-100">
+
+                    <div class="text-center text-3xl mb-4">🌷</div>
+
+                    <h4 class="script text-3xl text-[#8b1942] text-center">
+                        A little reminder
+                    </h4>
+
+                    <p class="text-sm leading-7 text-[#805166] mt-5 text-center">
+                        Never forget how special you are.
+                        You don't need a special day to deserve love, kindness,
+                        respect, beautiful moments or a reason to smile.
+                    </p>
+
+                    <p class="script text-2xl text-[#a32852] text-center mt-5">
+                        Keep shining, Saniya. ♡
+                    </p>
+
+                </div>
+
+            </details>
+
+        </div>
+
+
+
+        <div class="mt-14 text-center">
+
+            <details class="surprise-details inline-block relative">
+
+                <summary class="inline-flex items-center gap-3 bg-[#861b41] text-white px-8 py-4 rounded-full shadow-xl hover:bg-[#a72a53] hover:scale-105 transition">
+
+                    <i class="ri-mail-open-line text-xl"></i>
+
+                    <span>Wait... there's one more surprise</span>
+
+                    <i class="ri-arrow-down-s-line surprise-arrow"></i>
+
+                </summary>
+
+
+                <div class="surprise-content mt-5 max-w-2xl mx-auto letter-paper rounded-[30px] border border-pink-200 p-7 sm:p-10 shadow-xl text-left">
+
+                    <div class="text-center text-4xl text-[#a12750]">
+                        ♡
+                    </div>
+
+                    <h3 class="script text-4xl sm:text-5xl text-center text-[#8b1942] mt-3">
+                        A little wish for you
+                    </h3>
+
+                    <div class="w-20 h-[2px] bg-pink-300 mx-auto mt-5"></div>
+
+                    <p class="text-sm sm:text-base text-[#754458] leading-8 mt-7">
+                        Saniya, may life surprise you with beautiful opportunities,
+                        may your dreams become your reality, may your days be filled
+                        with peace and may you always find happiness in the little things.
+                    </p>
+
+                    <p class="text-sm sm:text-base text-[#754458] leading-8 mt-4">
+                        No matter how busy life gets, never stop laughing,
+                        never stop believing in yourself and never forget to celebrate
+                        the person you are becoming.
+                    </p>
+
+                    <p class="script text-3xl text-[#9b214b] text-center mt-7">
+                        Happy Anniversary, Saniya! ♡
+                    </p>
+
+                    <p class="text-center text-xs text-[#a26b7d] mt-4">
+                        A little webpage, a little surprise, a lot of love.
+                    </p>
+
+                </div>
+
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="gallery" class="py-20 px-5 sm:px-8 bg-[#fff8f5]">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-12">
+
+            <p class="uppercase tracking-[4px] text-xs text-[#ae5270] font-semibold">
+                Open the little collection
+            </p>
+
+            <h2 class="serif text-4xl sm:text-6xl mt-4">
+                A Surprise Gallery
+            </h2>
+
+            <p class="script text-3xl text-[#a02b50] mt-4">
+                A few beautiful things for you ♡
+            </p>
+
+        </div>
+
+        <div class="text-center mb-12">
+
+            <details class="surprise-details relative inline-block">
+
+                <summary class="bg-[#8b1942] text-white rounded-full px-7 py-4 inline-flex items-center gap-3 shadow-xl hover:bg-[#a72a53] transition">
+
+                    <i class="ri-gallery-line text-xl"></i>
+
+                    <span>Open the surprise gallery</span>
+
+                    <i class="ri-arrow-down-s-line surprise-arrow"></i>
+
+                </summary>
+
+
+                <div class="surprise-content mt-5 p-5 sm:p-8 bg-white rounded-[30px] shadow-xl border border-pink-100 text-left">
+
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img1.jpg"
+                                 alt="Pink flowers"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img2.jpg"
+                                 alt="Romantic sky"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img3.jpg"
+                                 alt="Beautiful flowers"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img4.jpg"
+                                 alt="Romantic scenery"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img5.jpg"
+                                 alt="Sunrise memories"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                        <div class="overflow-hidden rounded-2xl">
+                            <img src="images/img6.jpg"
+                                 alt="Warm lights"
+                                 class="w-full h-48 sm:h-64 object-cover hover:scale-110 transition duration-500">
+                        </div>
+
+                    </div>
+
+                    <p class="script text-3xl text-[#97264d] text-center mt-8">
+                        Beautiful things remind me of beautiful moments. ♡
+                    </p>
+
+                </div>
+
+            </details>
+
+        </div>
+
+
+        <!-- Gallery Cards -->
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-[#fff0f4] rounded-3xl p-5 text-center">
+                <i class="ri-camera-3-line text-3xl text-[#a22a51]"></i>
+                <h3 class="serif text-xl mt-3">Captured Moments</h3>
+                <p class="text-sm text-[#966277] mt-2">Little memories that deserve a place forever.</p>
+            </div>
+
+            <div class="bg-[#ffe1e9] rounded-3xl p-5 text-center">
+                <i class="ri-heart-2-line text-3xl text-[#a22a51]"></i>
+                <h3 class="serif text-xl mt-3">Little Happiness</h3>
+                <p class="text-sm text-[#966277] mt-2">Because happiness is hidden in the smallest things.</p>
+            </div>
+
+            <div class="bg-[#fff0f4] rounded-3xl p-5 text-center">
+                <i class="ri-infinity-line text-3xl text-[#a22a51]"></i>
+                <h3 class="serif text-xl mt-3">More To Come</h3>
+                <p class="text-sm text-[#966277] mt-2">The next memories are waiting to be made.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REASONS ================= -->
+
+<section class="py-20 px-5 sm:px-8 bg-[#fce3e9]">
+
+    <div class="max-w-5xl mx-auto text-center">
+
+        <p class="uppercase tracking-[4px] text-xs text-[#ae5270] font-semibold">
+            A tiny collection
+        </p>
+
+        <h2 class="serif text-4xl sm:text-6xl mt-5">
+            Reasons to Smile
+        </h2>
+
+        <p class="script text-3xl text-[#a02b50] mt-4">
+            Because you deserve a thousand happy moments
+        </p>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-12">
+
+            <div class="bg-white/70 rounded-3xl p-6 hover:-translate-y-2 transition">
+                <div class="text-4xl text-pink-500">♡</div>
+                <p class="serif text-lg mt-4">Your kindness</p>
+                <p class="text-xs text-[#966277] mt-2">It makes the world feel softer.</p>
+            </div>
+
+            <div class="bg-white/70 rounded-3xl p-6 hover:-translate-y-2 transition">
+                <div class="text-4xl text-pink-500">✿</div>
+                <p class="serif text-lg mt-4">Your laughter</p>
+                <p class="text-xs text-[#966277] mt-2">The sweetest sound of any day.</p>
+            </div>
+
+            <div class="bg-white/70 rounded-3xl p-6 hover:-translate-y-2 transition">
+                <div class="text-4xl text-pink-500">♡</div>
+                <p class="serif text-lg mt-4">Your little ways</p>
+                <p class="text-xs text-[#966277] mt-2">All the things that make you you.</p>
+            </div>
+
+            <div class="bg-white/70 rounded-3xl p-6 hover:-translate-y-2 transition">
+                <div class="text-4xl text-pink-500">∞</div>
+                <p class="serif text-lg mt-4">Your dreams</p>
+                <p class="text-xs text-[#966277] mt-2">May they take you everywhere.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FINAL LETTER ================= -->
+
+<section class="hero-bg py-24 px-5 sm:px-8">
+
+    <div class="max-w-4xl mx-auto">
+
+        <div class="bg-white/75 border border-white rounded-[35px] shadow-xl p-8 sm:p-14 text-center">
+
+            <div class="text-5xl text-[#a12750]">
+                <i class="ri-heart-fill"></i>
+            </div>
+
+            <p class="script text-3xl text-[#a12750] mt-5">
+                Before you go...
+            </p>
+
+            <h2 class="serif text-4xl sm:text-6xl mt-5 text-[#471329]">
+                One Last Thing
+            </h2>
+
+            <p class="text-[#865265] text-sm sm:text-base leading-8 max-w-2xl mx-auto mt-8">
+                Life is made of moments. Some are loud, some are quiet,
+                some are full of laughter and some are simply peaceful.
+                May your life always be filled with the kind of moments
+                that make you stop, smile and think —
+                <span class="italic text-[#9b244b]">"this is beautiful."</span>
+            </p>
+
+            <p class="text-[#865265] text-sm sm:text-base leading-8 max-w-2xl mx-auto mt-5">
+                Keep being yourself. Keep dreaming big.
+                Keep finding joy in little things.
+                And keep making this world a little more beautiful
+                just by being in it.
+            </p>
+
+
+            <!-- Final popover -->
+
+            <details class="surprise-details mt-10">
+
+                <summary class="cursor-pointer inline-flex items-center gap-3 bg-[#871b41] text-white px-8 py-4 rounded-full shadow-lg hover:scale-105 transition">
+
+                    <i class="ri-heart-line"></i>
+                    One final surprise for Saniya
+                    <i class="ri-arrow-down-s-line surprise-arrow"></i>
+
+                </summary>
+
+
+                <div class="surprise-content max-w-xl mx-auto mt-7 bg-[#fff0f4] rounded-3xl p-8 border border-pink-200">
+
+                    <p class="script text-4xl text-[#8d2045]">
+                        If this were a book...
+                    </p>
+
+                    <p class="serif text-2xl sm:text-3xl leading-relaxed text-[#67213b] mt-5">
+                        "I would never skip a single page, because every little moment makes the story beautiful."
+                    </p>
+
+                    <div class="text-5xl mt-7 text-pink-500">
+                        ♡
+                    </div>
+
+                    <p class="script text-3xl text-[#a12b52] mt-5">
+                        Happy Anniversary, Sonu & Saniya
+                    </p>
+
+                </div>
+
+            </details>
+
+
+            <div class="mt-12">
+
+                <p class="script text-4xl sm:text-5xl text-[#8c1c42]">
+                    Forever isn't a date...
+                </p>
+
+                <p class="script text-3xl sm:text-4xl text-[#b24869] mt-3">
+                    It's every little moment. ♡
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-[#58172f] text-white py-10 px-5">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <p class="script text-4xl sm:text-5xl">
+            Sonu <span class="text-pink-400">♡</span> Saniya
+        </p>
+
+        <p class="text-pink-200 text-sm mt-4">
+            A little corner of the internet made with love.
+        </p>
+
+        <div class="flex justify-center gap-3 text-pink-300 mt-6 text-xl">
+            <i class="ri-heart-fill"></i>
+            <i class="ri-heart-fill"></i>
+            <i class="ri-heart-fill"></i>
+        </div>
+
+        <div class="border-t border-white/10 mt-8 pt-6 text-xs text-pink-200">
+            Made with ♡ for a beautiful memory.
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
